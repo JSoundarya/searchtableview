@@ -11,7 +11,7 @@ import UIKit
 var currDetail = DetailViewController()
 class RootViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,UISearchResultsUpdating,UISearchBarDelegate {
 
-    
+    //Just a small test on sample branch
     @IBOutlet weak var tableView: UITableView!
     var companies = ["Accenture","Accord","Akamai","ANZ","Borland","Citrix","Cognizant","Dawn","Fortune","Pramati","Samsung","SAP","Sapient","Seaton","Silver","Simplex","Siri"]
     var name = ["Accenture","Accord","Akamai","ANZ","Borland","Citrix","Cognizant","Dawn","Fortune","Pramati","Samsung","SAP","Sapient","Seaton","Silver","Simplex","Siri"]
